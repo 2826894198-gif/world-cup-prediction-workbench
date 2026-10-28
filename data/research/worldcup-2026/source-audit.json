@@ -1,0 +1,53 @@
+{
+  "status": "official_schedule_parsed_predictions_blocked",
+  "checked_at": "2026-06-08",
+  "official_schedule_page": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+  "official_media_release": "https://inside.fifa.com/organisation/media-releases/updated-world-cup-2026-match-schedule-venues-kick-off-times-104-matches",
+  "official_pdf": "https://digitalhub.fifa.com/asset/4b5d4417-3343-4732-9cdf-14b6662af407/FWC26-Match-Schedule_English.pdf",
+  "local_pdf": "data/research/worldcup-2026/FWC26-Match-Schedule_English.pdf",
+  "structured_schedule": {
+    "file": "data/research/worldcup-2026/official-schedule.json",
+    "parser": "scripts/parse-official-2026-schedule.py",
+    "match_count": 104,
+    "date_span_et": [
+      "2026-06-11",
+      "2026-07-19"
+    ],
+    "stage_counts": {
+      "group_stage": 72,
+      "round_of_32": 16,
+      "round_of_16": 8,
+      "quarter_final": 4,
+      "semi_final": 2,
+      "third_place": 1,
+      "final": 1
+    },
+    "venue_count": 16,
+    "time_basis": "FIFA PDF Eastern Time (ET) display",
+    "validation": [
+      "Match 1: MEX vs RSA, 2026-06-11 15:00 ET, Mexico City",
+      "Match 2: KOR vs CZE, 2026-06-11 22:00 ET, Guadalajara",
+      "Match 3: CAN vs BIH, 2026-06-12 15:00 ET, Toronto",
+      "Match 4: USA vs PAR, 2026-06-12 21:00 ET, Los Angeles",
+      "Match 5: HAI vs SCO, 2026-06-13 21:00 ET, Boston",
+      "Match 6: AUS vs TUR, 2026-06-13 00:00 ET, Vancouver",
+      "Match 7: BRA vs MAR, 2026-06-13 18:00 ET, New York New Jersey",
+      "Match 8: QAT vs SUI, 2026-06-13 15:00 ET, San Francisco Bay Area",
+      "Match 73: 2A vs 2B, 2026-06-28 15:00 ET, Los Angeles",
+      "Match 74: 1E vs 3 ABCDF, 2026-06-29 16:30 ET, Boston",
+      "Match 88: 2D vs 2G, 2026-07-03 14:00 ET, Dallas",
+      "Match 89: W74 vs W77, 2026-07-04 17:00 ET, Philadelphia",
+      "Match 97: W89 vs W90, 2026-07-09 16:00 ET, Boston",
+      "Match 101: W97 vs W98, 2026-07-14 15:00 ET, Dallas",
+      "Match 102: W99 vs W100, 2026-07-15 15:00 ET, Atlanta",
+      "Match 103: Loser Match 101 vs Loser Match 102, 2026-07-18 17:00 ET, Miami",
+      "Match 104: Winner Match 101 vs Winner Match 102, 2026-07-19 15:00 ET, New York New Jersey"
+    ]
+  },
+  "api_probe": {
+    "url": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idCompetition=17&idSeason=286310",
+    "result": "empty_results",
+    "note": "Probe returned no structured match rows, so it was not used as a schedule source."
+  },
+  "guardrail": "The official FIFA schedule has been parsed and seeded into the local match list, but 2026 prediction output remains blocked until market odds, squad/news inputs, and pre-match form adapters are connected. Non-official future fixture rows remain ignored."
+}

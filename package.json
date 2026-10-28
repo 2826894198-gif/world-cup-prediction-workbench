@@ -1,0 +1,51 @@
+{
+  "name": "world-cup-prediction-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:api": "node --experimental-sqlite server/index.mjs",
+    "dev:web": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+    "seed": "node --experimental-sqlite server/db/seed.mjs",
+    "seed:sample": "node --experimental-sqlite server/db/seed.mjs --mode=sample",
+    "import:results": "node --experimental-sqlite scripts/import-official-results.mjs",
+    "refresh": "node --experimental-sqlite server/db/refresh.mjs",
+    "refresh:odds": "node --experimental-sqlite scripts/refresh-market-odds.mjs",
+    "scrape:dqd": "node scripts/scrape-dongqiudi-odds.mjs",
+    "evaluate:historical": "node scripts/evaluate-historical.mjs",
+    "evaluate:international": "node scripts/evaluate-international.mjs",
+    "verify:historical": "node scripts/verify-historical-integrity.mjs",
+    "verify:model": "node scripts/verify-model-integrity.mjs",
+    "verify:major": "node scripts/verify-major-tournament-audit.mjs",
+    "verify:friendly": "node scripts/verify-friendly-ledger.mjs",
+    "verify:iteration": "node scripts/verify-model-iteration-audit.mjs",
+    "verify:groups": "node --experimental-sqlite scripts/verify-group-advancement.mjs",
+    "verify:sample": "node --experimental-sqlite scripts/verify-sample-loop.mjs",
+    "verify:odds": "node --experimental-sqlite scripts/verify-odds-source-audit.mjs",
+    "verify:preview": "node --experimental-sqlite scripts/verify-preview-decisions.mjs",
+    "verify:impact": "node --experimental-sqlite scripts/verify-model-change-impact.mjs",
+    "verify:promotion": "node scripts/verify-promotion-gate.mjs",
+    "verify:schedule": "node --experimental-sqlite scripts/verify-2026-schedule.mjs",
+    "verify:evidence": "node --experimental-sqlite scripts/verify-evidence-manifest.mjs",
+    "verify": "npm run verify:historical && npm run verify:model && npm run verify:major && npm run verify:friendly && npm run verify:schedule && npm run verify:odds && npm run verify:preview && npm run verify:impact && npm run verify:groups && npm run verify:iteration && npm run verify:promotion && npm run verify:evidence",
+    "backtest:wc2022:market": "node scripts/backtest-worldcup-2022-market.mjs",
+    "backtest:wc2022:hybrid": "node scripts/backtest-worldcup-2022-hybrid.mjs",
+    "backtest:euro2024:market": "node scripts/backtest-euro-2024-market.mjs",
+    "backtest:euro2024:hybrid": "node scripts/backtest-euro-2024-hybrid.mjs",
+    "pretest:auxiliary": "node scripts/pretest-auxiliary-models.mjs",
+    "build": "node node_modules/vite/bin/vite.js build",
+    "preview": "node node_modules/vite/bin/vite.js preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.7"
+  },
+  "devDependencies": {
+    "@rollup/wasm-node": "4.61.1"
+  }
+}

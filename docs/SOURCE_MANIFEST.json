@@ -1,0 +1,435 @@
+{
+  "date": "2026-10-28",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 196,
+      "sha256": "19259ce28d207a60acea96f3b78af63e328558e8ef6e8f140e73d3409adc7263"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 100,
+      "sha256": "0ba87145ffb1703f740f43bbba003a534865562b6136aaac39679f2a7e67736d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 225,
+      "sha256": "a00264efd5648c8fbaf309d61d2577b8c568e16790a629a6b417f862cfac7b22"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "bytes": 179,
+      "sha256": "3366778642e68a8f7e8fb8e5aa58734e208e13234698d831059cee38cd3badd9"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 254,
+      "sha256": "c565231e78ffa3a990f66fe732eafec2891f3d297cb42665acf558b982f36018"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 529,
+      "sha256": "bac238a77d2ae14a8b9fb7b8a2774c8df11d35523bbb0a8a3a8346c9e9ccc7d4"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 643,
+      "sha256": "6f41be21898429096006535651affb317faf5a30819519a731a9c9fcb91db718"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3391,
+      "sha256": "318a015e09982c7eb0cb86f9a3c494b493772f0a2559cf910a2f7d53e464bc1d"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 468,
+      "sha256": "2294531cdf2dcda025fafcaedfde64ffd17295648fa4397d61d0ac50112efc2e"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 458,
+      "sha256": "4567a39622d24f88ac3b9f20103e006c771f74af949052359e78ff8100e1281c"
+    },
+    {
+      "path": "data/research/worldcup-2026/odds-source-audit.json",
+      "bytes": 74888,
+      "sha256": "6e21aeb74654c94d3a6529fa26c08ca625b527e27187f373321865a28160101d"
+    },
+    {
+      "path": "data/research/worldcup-2026/official-schedule.json",
+      "bytes": 44896,
+      "sha256": "18a022d0fd955074f17a02f7cf695294953318a52347166cddd5e47b48647343"
+    },
+    {
+      "path": "data/research/worldcup-2026/source-audit.json",
+      "bytes": 2809,
+      "sha256": "9793587564053737a1666c185ad94a7bf957dac17bb367839b1a11fe26fbd8da"
+    },
+    {
+      "path": "docs/REPOSITORY_STATUS.md",
+      "bytes": 1981,
+      "sha256": "0038b0a39c0b4eaa636fd266d558930da429892330d4c1b15ca2a53afa1b4e05"
+    },
+    {
+      "path": "docs/SHOWCASE.md",
+      "bytes": 1931,
+      "sha256": "75eaa4999c256e73f6939ae842209d1fef03ce70ffb72b9ee7410160713c2571"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 478,
+      "sha256": "5fbe03ac64b85845c51b820f9738f973e2d59ccc53862c3f260fac1329f01370"
+    },
+    {
+      "path": "docs/assets/README.md",
+      "bytes": 340,
+      "sha256": "3f61d67f16966ccc1efd496ac1aa35ad66d525ddcd882638511ebd22c0acc650"
+    },
+    {
+      "path": "docs/assets/qa-desktop-after-interactions.png",
+      "bytes": 129554,
+      "sha256": "a4637220cd7bd70125ab88e9bdd6c8ae00529ed1e3bdb5b50b8a641020ae4a52"
+    },
+    {
+      "path": "docs/assets/qa-desktop-home.png",
+      "bytes": 363512,
+      "sha256": "1fdd6f5d9a966c4577626b83500899147f2d7067eb33eb73e917354e3753ac59"
+    },
+    {
+      "path": "docs/assets/qa-mobile-home.png",
+      "bytes": 94629,
+      "sha256": "6183753969376cab7eb88d6b1c0f90c23859c71d246ec19b2451a132e6f2cb09"
+    },
+    {
+      "path": "docs/assets/workbench-concept.png",
+      "bytes": 1715359,
+      "sha256": "71b4a79a692e752e3572fd9319cea82f1f1484665ef77aaa208d8bd38f074cb9"
+    },
+    {
+      "path": "docs/data-source-audit.md",
+      "bytes": 11416,
+      "sha256": "d9b757d0c7bb3e4895de45c80eb2f9630a04781fa5ddbe1b35f5fb12012a5708"
+    },
+    {
+      "path": "docs/phase-one-plan.md",
+      "bytes": 4695,
+      "sha256": "9cec89ce2cd75147bfde5f3745a0488697a5429b0fb7b33ce4c88bd9a83f31d5"
+    },
+    {
+      "path": "index.html",
+      "bytes": 321,
+      "sha256": "4baa3597d467990364963628aeae838d36f945d5890e0920b6be0bd2fc5bc86e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 3002,
+      "sha256": "ff6551b6f6830886545caa8aee7c9e86f998dfdbf1bed5278f3bd497a34e6e14"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 28283,
+      "sha256": "7f387a88ed938244661364deaa71bdb37976f89aba58f88b74430798a50febf9"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 116,
+      "sha256": "8c98116665c89591ee6c37297eb8663e2ea80121473d08a16aba8c7ae1fffaa6"
+    },
+    {
+      "path": "scripts/backtest-euro-2024-hybrid.mjs",
+      "bytes": 7782,
+      "sha256": "ba15af2d3da145a69c4bfddbc8cf5911c0f0e1b109ed1ba8d1c038a15045d3b7"
+    },
+    {
+      "path": "scripts/backtest-euro-2024-market.mjs",
+      "bytes": 26971,
+      "sha256": "6e1912105a641f6dcee4192181afcd8ed9a66bbe0e1ffddb3bb1fd33e792d037"
+    },
+    {
+      "path": "scripts/backtest-worldcup-2022-hybrid.mjs",
+      "bytes": 7818,
+      "sha256": "531cc300e1eda31730372120386164ddfddb9611c4c38c0be5b26e8c971a7138"
+    },
+    {
+      "path": "scripts/backtest-worldcup-2022-market.mjs",
+      "bytes": 26979,
+      "sha256": "05039f38b12f5ebe524e64fca48fa5c5f56b86d5f5a77abe47980b1af0011d2c"
+    },
+    {
+      "path": "scripts/dev.mjs",
+      "bytes": 1233,
+      "sha256": "bdd5aaccc002783cf81fd335bb51f38635d7ab53ff33cef4707d3a64b6ab4892"
+    },
+    {
+      "path": "scripts/evaluate-historical.mjs",
+      "bytes": 64656,
+      "sha256": "78fa8e120b7fa7f2a17ed0eb8d96c8559fab3902a868d627e87e97b8d6d89913"
+    },
+    {
+      "path": "scripts/evaluate-international.mjs",
+      "bytes": 87782,
+      "sha256": "f4c2c5533219a8466ed03db43bacf9939eb52fe6d8b1c2764b598013e3769e62"
+    },
+    {
+      "path": "scripts/import-official-results.mjs",
+      "bytes": 996,
+      "sha256": "14ffb5fe7eab9869cc0fc5f73a77d3b4f7863ed16f03336fe8dd0ceb5d62a079"
+    },
+    {
+      "path": "scripts/parse-official-2026-schedule.py",
+      "bytes": 13466,
+      "sha256": "322751ae0e0ae0ab44bf46285f26cba8d5ef2cbed48f12e4b81bb51e9796be3e"
+    },
+    {
+      "path": "scripts/predict-today-friendlies.mjs",
+      "bytes": 17594,
+      "sha256": "2ae47e46cd01dbe45f0e30b1295fe65282ce9b6d4ebe62bd8d19095b8731b015"
+    },
+    {
+      "path": "scripts/pretest-auxiliary-models.mjs",
+      "bytes": 14309,
+      "sha256": "31a5cc9219b292aae3b0e2ff31dfae48e58f3ad6dfb5d6ade4d99fac63a67773"
+    },
+    {
+      "path": "scripts/refresh-market-odds.mjs",
+      "bytes": 1041,
+      "sha256": "01b3b410bddc0ff4d13d24b744b072bc4b7887cd467efac8d4caa451e2f44917"
+    },
+    {
+      "path": "scripts/scrape-dongqiudi-odds.mjs",
+      "bytes": 14942,
+      "sha256": "4167d7edb0c0007ae9e9e26a37aa81dfa71a71e61bdf29371d18195adbfc426c"
+    },
+    {
+      "path": "scripts/verify-2026-schedule.mjs",
+      "bytes": 15351,
+      "sha256": "8a78085f291243ba33e48e8f468378d20b0a988c93ff27c3b5b35b7a5a796eae"
+    },
+    {
+      "path": "scripts/verify-evidence-manifest.mjs",
+      "bytes": 16673,
+      "sha256": "a6b893eaa9c5dbe84531ab45a9b68ac72d95fc974850fc9fc46529f50c77b510"
+    },
+    {
+      "path": "scripts/verify-friendly-ledger.mjs",
+      "bytes": 20765,
+      "sha256": "23c36f13a0e0f88a945d599aec78c0941cd122ba90f3918c93bc8bbbdea4f847"
+    },
+    {
+      "path": "scripts/verify-group-advancement.mjs",
+      "bytes": 4788,
+      "sha256": "b8fbce26ce639e9bb0fcf79f13180678fd213e749da84d141fcacd5a677845a0"
+    },
+    {
+      "path": "scripts/verify-historical-integrity.mjs",
+      "bytes": 25310,
+      "sha256": "c71ec47bce446dfaebad070bc4b2de8a955a442757882680ebae20143d8c5fe5"
+    },
+    {
+      "path": "scripts/verify-major-tournament-audit.mjs",
+      "bytes": 13177,
+      "sha256": "cd16363f0593785a3991181000fd34b68a1569d5f13c837f5a597196dffeb1bb"
+    },
+    {
+      "path": "scripts/verify-model-change-impact.mjs",
+      "bytes": 12535,
+      "sha256": "d76608e06c059c3e265515b48ec8b4a95c2de39f7436637402d79e94ea77815f"
+    },
+    {
+      "path": "scripts/verify-model-integrity.mjs",
+      "bytes": 29868,
+      "sha256": "13042cd8786decd5cf43cdefaab6d97322e009478d11d98f2098ade7e18964ee"
+    },
+    {
+      "path": "scripts/verify-model-iteration-audit.mjs",
+      "bytes": 15132,
+      "sha256": "4705c68c1bd1956bf80bf6038e40c769f10326820fb6679abb367fe2f0f55249"
+    },
+    {
+      "path": "scripts/verify-odds-source-audit.mjs",
+      "bytes": 6540,
+      "sha256": "2706add1a9d8074a13c6e3d208e6b15e2edb7ef0b080ab65945b684bdaea12a3"
+    },
+    {
+      "path": "scripts/verify-preview-decisions.mjs",
+      "bytes": 22931,
+      "sha256": "16714a9607a69b6377e6a784fb5866845d134d0d673654b5b5b7435c0d63a174"
+    },
+    {
+      "path": "scripts/verify-promotion-gate.mjs",
+      "bytes": 20158,
+      "sha256": "bea08f2054e30f7e7c19c34de32bf2e12014d4a71312d0bae60c47985cb5ee51"
+    },
+    {
+      "path": "scripts/verify-sample-loop.mjs",
+      "bytes": 5984,
+      "sha256": "6dc24c4a728cdaa66f4883f4f1e31539d0903b81784a722020302785d68c88af"
+    },
+    {
+      "path": "server/data/officialResults.mjs",
+      "bytes": 34435,
+      "sha256": "2b8ff5a85a556fed2c1deddde98d4b6add035cc460477053b823b217bc1c11a2"
+    },
+    {
+      "path": "server/data/sampleData.mjs",
+      "bytes": 19082,
+      "sha256": "8238fd13098c9e479b9c03b91549bf579799ec4b05f095d38b7360a79c972bd4"
+    },
+    {
+      "path": "server/db/connection.mjs",
+      "bytes": 976,
+      "sha256": "db32a459441895e029f13868022025399a7a68b7b55ed080f2924503312a09f2"
+    },
+    {
+      "path": "server/db/officialResults.mjs",
+      "bytes": 6260,
+      "sha256": "a1d21d5c37c279d530fd72b6caca5971abe73102a12592f6daa60a930952dd89"
+    },
+    {
+      "path": "server/db/refresh.mjs",
+      "bytes": 14694,
+      "sha256": "b8e7f2f31193ddca973906d4479a001da5b20ec7b2b9b13459dcc5d454d60180"
+    },
+    {
+      "path": "server/db/schema.sql",
+      "bytes": 5412,
+      "sha256": "3257976cd64f4abf8535b497229631f9a16bb4fa7f630b8dafdcb235eb717c1b"
+    },
+    {
+      "path": "server/db/seed.mjs",
+      "bytes": 10262,
+      "sha256": "2c49bae7e0f6d76a03c7b25b2eda7868ccce3df0f7168aa3675bf9ff7300d5d6"
+    },
+    {
+      "path": "server/index.mjs",
+      "bytes": 4390,
+      "sha256": "95e03dd187bed6cfffd70c7ab78bd4c471ff9fcbe47181def8d15bfe201b785a"
+    },
+    {
+      "path": "server/model/index.mjs",
+      "bytes": 7993,
+      "sha256": "bd6ccf6f927ec055413fdba9ec09393d995ec935603bab78ec87272149cd2d9e"
+    },
+    {
+      "path": "server/model/market.mjs",
+      "bytes": 14548,
+      "sha256": "6bc3a2a8fb42798c795f4d602a750c1d0f9625dee8b22ffc3d5a0a5f31db5f4c"
+    },
+    {
+      "path": "server/model/math.mjs",
+      "bytes": 909,
+      "sha256": "837caaa926150746b5bb81eccc62b8f0c1b3f7ff4cf45b36441fd289476cee0c"
+    },
+    {
+      "path": "server/model/poisson.mjs",
+      "bytes": 5987,
+      "sha256": "82165941f320ff4f47fc842a1b71825ac3b1e631a4e486247f6c69c0b2fa63d5"
+    },
+    {
+      "path": "server/model/rules.mjs",
+      "bytes": 3249,
+      "sha256": "f7c0170fabd73b4224c9b73bc404f6c31a2c0be3879142836f436a03ed7fee8a"
+    },
+    {
+      "path": "server/model/strength.mjs",
+      "bytes": 1870,
+      "sha256": "8c1e75afb389f433ef77d3e423baa945f2994a15032decd6eaa7982f7967235b"
+    },
+    {
+      "path": "server/services/oddsRefresh.mjs",
+      "bytes": 65545,
+      "sha256": "69df1e6decb95046e9913d81ad868aade1e45be93e044aaee1a1d8031b47ee70"
+    },
+    {
+      "path": "server/services/oddsSourcePolicy.mjs",
+      "bytes": 2279,
+      "sha256": "c89253da332783274aab31b965898969c363c9a511c1269fdace22218ba4d796"
+    },
+    {
+      "path": "server/services/previewDecision.mjs",
+      "bytes": 5628,
+      "sha256": "e8a9026adf6d0dbe75f4992646c105b6c719f6305e9b56d6fe6e19d96fe48fef"
+    },
+    {
+      "path": "server/services/probabilityUncertainty.mjs",
+      "bytes": 2679,
+      "sha256": "258d65c45c746a5718cfb2a8ebe1bc12b15f6e90f1f5a52a0619015a970b4da1"
+    },
+    {
+      "path": "server/services/repository.mjs",
+      "bytes": 87949,
+      "sha256": "e46f47e8ad958932bf5591717b99567dcc72657f05ab43ae3400f16be5decd11"
+    },
+    {
+      "path": "src/App.jsx",
+      "bytes": 13913,
+      "sha256": "56de9e6e9950878ff621f9deec86bd4b55cc6e0bee0131fb540d2140faa76e00"
+    },
+    {
+      "path": "src/components/MatchInspector.jsx",
+      "bytes": 24646,
+      "sha256": "3bfe666725b4d2467bb39f95ef3ba805ad0449e39c01b2ef17084afb25c57c35"
+    },
+    {
+      "path": "src/components/PredictionTable.jsx",
+      "bytes": 17616,
+      "sha256": "2aaf25af16e6680318a31343d15d727c617a6e30ffe226951ee69960963dcd3c"
+    },
+    {
+      "path": "src/components/RecommendationPosterModal.jsx",
+      "bytes": 2243,
+      "sha256": "17b7c3a8e56de67a17f517c914d96891902f556317bd313e6207d8589a042201"
+    },
+    {
+      "path": "src/components/Sidebar.jsx",
+      "bytes": 2351,
+      "sha256": "472e29d3a471faf19c6218ee6a5b6cd5c3ab26b40f1eba9009e1fd433613a18d"
+    },
+    {
+      "path": "src/components/TopToolbar.jsx",
+      "bytes": 3775,
+      "sha256": "27ddd616b3106507e623bb715997b8d1acd1d0a90300bc9162c1f659a5a701f9"
+    },
+    {
+      "path": "src/components/WorkspacePanel.jsx",
+      "bytes": 189467,
+      "sha256": "d9aae527f2aca78c31aa3c6f9a8e80dbcb2acfb5c118970a0629f2d8114f89c7"
+    },
+    {
+      "path": "src/lib/api.js",
+      "bytes": 1192,
+      "sha256": "0b1b812ed5e25528d02c63fa2a8324f84de5e8f4fcde52307770b1f76781f90e"
+    },
+    {
+      "path": "src/lib/format.js",
+      "bytes": 1248,
+      "sha256": "fb64d6beb4b0da26ab256a6d2308ed326a60a9d99331821c901080f8ed8515c0"
+    },
+    {
+      "path": "src/lib/marketOutputs.js",
+      "bytes": 44667,
+      "sha256": "64049f3f2623bf129918b0ec7b780cb5931602659c76b9f2f5dd36c125f6df5d"
+    },
+    {
+      "path": "src/lib/recommendationPoster.js",
+      "bytes": 16594,
+      "sha256": "4722a7206fe032597b0a7c7676e169b5be5c1d3b973f94cfdab720daf37d031d"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 242,
+      "sha256": "414dcac887caa3281ce723f351999440e0122188c1480f380d0db7df654ab4b4"
+    },
+    {
+      "path": "src/styles/app.css",
+      "bytes": 126168,
+      "sha256": "83fa0991f7abe703d6296f5718f175a1d5f7e89cd6f96fab6b5b3fb0cc9d0743"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 385,
+      "sha256": "3b427121102d960d4fd9ccc4a737e968c97af620ab12e4509eb51286a6a8d3e2"
+    }
+  ]
+}
